@@ -1,0 +1,121 @@
+
+.notes-list-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; 
+  padding: 1rem;
+}
+
+.note-item {
+  flex: 1 1 300px; 
+  max-width: 350px; 
+  margin: 0; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+}
+
+
+.note-item:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(10, 38, 220, 0.2);
+}
+
+
+.card {
+  border: none;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  background: url('https://images5.alphacoders.com/132/1323577.png') center/cover no-repeat;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  height: 100%; 
+}
+
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 190px;
+  border-bottom: 1px solid #dbe3f0;
+  transition: transform 0.3s ease;
+}
+
+.note-item:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 1.75rem 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.03em;
+}
+
+.card-subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.card-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #3b3b3b;
+  flex-grow: 1;
+  margin-bottom: 1.25rem;
+  white-space: pre-wrap;
+}
+
+.d-flex {
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(75, 123, 236, 0.25);
+  transition: background-color 0.3s ease, transform 0.15s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px rgba(75, 123, 236, 0.4);
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #ff5e6c;
+  border: none;
+  box-shadow: 0 2px 8px rgba(255, 94, 108, 0.35);
+}
+
+.btn-danger:hover {
+  background-color: #ff3348;
+  box-shadow: 0 5px 22px rgba(255, 51, 72, 0.55);
+}
+
+.btn-primary {
+  background-color: #4b7bec;
+  border: none;
+  box-shadow: 0 2px 8px rgba(75, 123, 236, 0.35);
+}
+
+.btn-primary:hover {
+  background-color: #3a65d8;
+  box-shadow: 0 5px 22px rgba(58, 101, 216, 0.55);
+}

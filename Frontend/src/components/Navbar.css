@@ -1,0 +1,88 @@
+
+.navbar-custom {
+  position: sticky;
+  top: 0;
+  z-index: 500; 
+  background: #F5F5DC;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 8px rgba(8, 100, 171, 0.06);
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #634422;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #475569;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+.auth-buttons {
+  display: flex;
+  gap: 0.75rem;     
+  flex-wrap: nowrap; 
+  align-items: center;
+  white-space: nowrap; 
+}
+
+.auth-buttons .btn {
+  margin-left: 0;    
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #F5F5DC;
+  font-weight: 500;
+  cursor: pointer;
+  background: transparent;
+  color: inherit;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .auth-buttons {
+    flex-wrap: wrap;      
+    gap: 0.5rem;
+    justify-content: flex-start;
+  }
+}
+.auth-buttons .login {
+  background: #F5F5DC;
+  color: #99c366;
+}
+
+.auth-buttons .login:hover {
+  background: #e0ecff;
+}
+
+.auth-buttons .signup {
+  background: #F5F5DC;
+  color: #99c366;
+}
+
+.auth-buttons .signup:hover {
+  background: #e0ecff;
+}
