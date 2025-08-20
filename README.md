@@ -1,20 +1,67 @@
-Auxicordo-
-Emotion-aware notes and music companion app
-Tech Stack: React.js (Vite), Node.js, MongoDB, OpenAI API, JavaScript, HTML/CSS
+🎶 Auxicordo – Emotion-Aware Notes & Music Companion
 
-Brief:
-Auxicordo is a productivity and emotional wellness app that intelligently blends note-taking with mood-based music suggestions and visual themes. It analyzes user emotions from both text and voice notes using AI models (OpenAI APIs), offering personalized song recommendations and dynamic note themes (e.g., calming visuals for sad moods). Designed with creativity and mental clarity in mind, Auxicordo also features a Mind Map Mode for brainstorming connections and a Dream Mode that visualizes notes in an abstract, artistic format.
+Auxicordo is a productivity + emotional wellness app that merges the simplicity of note-taking with the power of music and AI-driven emotional insights. By analyzing your text and voice notes, it suggests music that matches your mood, transforms your notes with dynamic themes, and even visualizes your thoughts in creative ways.
 
-Key Features:
+✨ Think of it as your intelligent journal that listens, understands, and vibes with you.
 
-Emotion detection from text and voice using AI
 
-Mood-based background themes and ambient visuals
 
-AI-powered song suggestions aligned with user emotions
+🚀 Tech Stack
 
-Mind Map Mode for connected thinking
+Frontend: React.js (Vite), HTML5, CSS3, JavaScript
 
-Dream Mode for immersive creative writing
+Backend: Node.js, Express.js
 
-Clean UI with edit/delete/add functionality for notes
+Database: MongoDB
+
+AI Models: OpenAI API (text + voice emotion analysis)
+
+Other: TailwindCSS (UI), APIs for music recommendations
+
+
+
+🌟 Key Features
+
+🎭 Emotion Detection
+
+Understands emotions from both written notes and voice recordings.
+
+Powered by AI models for accurate mood analysis.
+
+🎨 Mood-Based Themes
+
+Notes adapt to your emotional state with calming, uplifting, or energetic background themes & visuals.
+
+🧠 Mind Map Mode
+
+A connected thinking space where you can visualize your notes as a web of ideas.
+
+Great for brainstorming, planning, and problem-solving.
+
+🌌 Dream Mode
+
+Transforms your notes into abstract, artistic visualizations.
+
+Designed to inspire creative writing & self-expression.
+
+📝 Core Note-Taking
+
+Clean and minimal UI for:
+
+➕ Adding notes
+
+
+
+🛠️ Future Enhancements
+
+🔔 Smart reminders based on mood
+
+📊 Emotion history & insights dashboard
+
+🎤 Real-time voice mood detection during note dictation
+
+🤝 Community playlist sharing
+
+✏️ Editing notes
+
+❌ Deleting notes
